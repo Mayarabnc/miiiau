@@ -1,0 +1,180 @@
+.h1Branco {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(230, 230, 230);
+    margin: none;
+}
+
+.h3Branco {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(230, 230, 230);
+    margin: none;
+}
+
+.h1Titulo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px
+}
+
+.centro {
+    text-align: center;
+    padding: 30px;
+    color: black;
+    /*deixa a letra em negrito*/
+    font-weight: bold;
+}
+
+
+#menu {
+    background-color: rgb(7, 230, 211) !important;
+    padding-top: 10px;
+    position: fixed;
+    top: 5%;
+    width: 100%;
+    margin-top: -2.9em;
+}
+
+.textcarr {
+
+    color: rgb(192, 4, 4);
+
+}
+
+.margemDireita {
+
+    margin-right: 70px;
+
+}
+
+.margemEsquerda {
+
+    margin-left: 100px;
+
+}
+
+.margem {
+    margin-top: 50px;
+}
+
+.video {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.fundo {
+    background-color: rgb(7, 230, 211);
+}
+
+body {
+    padding-top: 47px;
+}
+
+#div1 {
+    background-color: rgb(22, 22, 22) !important;
+}
+
+/*CSS do card de miuterias*/
+
+#header {
+    background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) center center / cover no-repeat;
+}
+
+.fundoCinza {
+    background-color: rgb(116, 116, 116)
+}
+
+.letraBranca {
+    color: rgb(207, 207, 207)
+}
+
+.letraAv {
+    color: rgb(7, 230, 211);
+}
+
+
+.textlado {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.quebraLinha {
+    display: block;
+}
+
+.midiaR {
+    width: 100%;
+}
+
+/*CSS do card de miuterias*/
+
+
+/*CSS contatos*/
+.alinhar {
+    text-align: center;
+}
+
+.cn {
+    text-align: center;
+}
+
+.lado {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 100px;
+
+}
+
+/*CSS contatos*/
+
+
+/*As miauravilhas da vida*/
+
+.text {
+
+    color: black;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.margemEsquerdaM {
+
+    align-items: center;
+
+}
+
+/*As miauravilhas da vida*/
+
+/*responsividade*/
+
+.respon {
+    min-width: 320px;
+    width: 1440px;
+    margin: auto;
+}
+
+.img {
+    width: 100%;
+}
+
+.imgcentro {
+    margin: 50px;
+}
+
+/*responsividade*/
+
+/*Autor*/
+
+.imgRedonda{
+    border-radius: 50%;
+}
+
+/*Autor*/
