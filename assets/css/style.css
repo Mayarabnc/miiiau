@@ -30,7 +30,6 @@
 #menu {
     background-color: rgb(7, 230, 211) !important;
     padding-top: 10px;
-    position: fixed;
     top: 5%;
     width: 100%;
     margin-top: -2.9em;
@@ -179,3 +178,37 @@ body {
 
 /*Autor*/
 
+#imgback{
+    background-position: center;
+    background-repeat: repeat; 
+
+}
+
+*{
+    margin: 0;
+}
+
+section{
+    width: 1440px;
+}
+
+@media(max-width: 1200px){
+    section{
+        width: 1000px;
+    }
+}
+@media(max-width: 1024px){
+    section{
+        width: 700px;
+    }
+}
+@media(max-width: 768px){
+    section{
+        width: 400px;
+    }
+}
+@media(max-width: 425px){
+    section{
+        width: 320px;
+    }
+}

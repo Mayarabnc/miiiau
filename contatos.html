@@ -15,43 +15,39 @@
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
 
-<body  style="background-image: url(assets/imagens/gato\ dançante.gif);">
+<body  >
 
-  <!--Cabeçalho-->
-  <div>
-    <!--fixa no top-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="menu">
-      <a class="navbar-brand" href="#">Miiiau</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="video.html">Video</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-expanded="false">
-              Tópicos
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="miauterias.html">Miauterias</a>
-              <a class="dropdown-item" href="contatos.html">Contatos</a>
-              <div class="dropdown-divider"></div>
-              <!--abre o link em outra aba-->
-              <a class="dropdown-item" href="https://mayarabnc.github.io/auuuu/" target="_blank">Site Auuuu</a>
-            </div>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <!--Cabeçalho-->
+<!--Cabeçalho-->
+<div>                                                <!--fixa no top-->
+  <nav class="navbar navbar-expand-lg navbar-light" id="menu">
+     <a class="navbar-brand" href="#">Miiiau</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+   
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="video.html">Video</a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+             Tópicos
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="miauterias.html">Miauterias</a>
+             <a class="dropdown-item" href="contatos.html">Contatos</a>
+             <div class="dropdown-divider"></div>                                <!--abre o link em outra aba-->
+           <a class="dropdown-item" href="https://mayarabnc.github.io/auuuu/" target="_blank">Site Auuuu</a>
+         </div>
+       </ul>
+     </div>
+   </nav>
+ </div>
+   <!--Cabeçalho-->
 
 
 
@@ -61,7 +57,7 @@
 
 
   <!--formulario-->
-  <div>
+  <div style="background-image: url(assets/imagens/gato\ dançante.gif);">
   
       <div class="container">
         <div class="row">
@@ -70,15 +66,15 @@
           </div>
           <div class="col-md-6">
           <div class="form-group">
-            <label class="quebraLinha" for="nome">Nome:</label>
-            <textarea type="text" onkeyup="validarNome()" id="nome" placeholder="Miaura Cabrrrral" cols="60"
+            <label class="quebraLinha text-white" for="nome">Nome:</label>
+            <textarea class="form-control" type="text" onkeyup="validarNome()" id="nome" placeholder="Miaura Cabrrrral"
               rows="1"></textarea>
             <div id="txtNome"></div>
           </div>
 
           <div class="form-group ">
-            <label class="quebraLinha" for="exampleFormControlInput1">Email</label>
-            <textarea type="text" onkeyup="validarEmail()" id="email" placeholder="name@example.com" cols="60"
+            <label class="quebraLinha text-white" for="exampleFormControlInput1">Email</label>
+            <textarea class="form-control" type="text" onkeyup="validarEmail()" id="email" placeholder="name@example.com"
               rows="1"></textarea>
             <div id="txtEmail"></div>
           </div>
@@ -86,15 +82,15 @@
 
 
           <div class="form-group">
-            <label class="quebraLinha" for="exampleFormControlTextarea1">Assunto</label>
-            <textarea name="Assunto" onkeyup="validarAssunto()" id="assunto"
-              placeholder="Miau miau miiiiau miau miiiau miiiau : ) ronronronroooon" cols="60" rows="5"></textarea>
+            <label class="quebraLinha text-white" for="exampleFormControlTextarea1">Assunto</label>
+            <textarea class="form-control" name="Assunto" onkeyup="validarAssunto()" id="assunto"
+              placeholder="Miau miau miiiiau miau miiiau miiiau : ) ronronronroooon" rows="5"></textarea>
             <div id="txtAssunto"></div>
 
-            <div class="alinhar">
+            <div class="alinhar mt-2">
               <button type="submit" class="btn btn-primary" onclick="enviar()">Enviar</button>
             </div>
-          </div>
+          
           <div class="col-md-3">
 
           </div>
