@@ -192,6 +192,13 @@ section{
     width: 1440px;
 }
 
+/*responsividade*/
+
+@media(max-width: 1440px){
+    section{
+        width: 1072px;
+    }
+}
 @media(max-width: 1200px){
     section{
         width: 1000px;
@@ -212,3 +219,5 @@ section{
         width: 320px;
     }
 }
+
+/*responsividade*/
