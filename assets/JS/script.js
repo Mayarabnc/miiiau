@@ -103,6 +103,14 @@ function validarNome(){
 
   }
 
+    /*Limpar formulario*/
+    window.onbeforeunload = () => {
+     for(const form of document.getElementsByTagName('form')) {
+        form.reset();
+    }
+    }
+/*Limpar formulario*/
+
   /*pesquisa*/
   
   /*pesquisa*/
