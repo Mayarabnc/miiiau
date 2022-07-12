@@ -59,6 +59,7 @@
   <!--formulario-->
   <div style="background-image: url(assets/imagens/gato\ dançante.gif);">
   
+    <form action="https://formspree.io/f/xoqrorjl" method="POST">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -68,14 +69,14 @@
           <div class="form-group">
             <label class="quebraLinha text-white" for="nome">Nome:</label>
             <textarea class="form-control" type="text" onkeyup="validarNome()" id="nome" placeholder="Miaura Cabrrrral"
-              rows="1"></textarea>
+              rows="1" name="nome"></textarea>
             <div id="txtNome"></div>
           </div>
 
           <div class="form-group ">
             <label class="quebraLinha text-white" for="exampleFormControlInput1">Email</label>
             <textarea class="form-control" type="text" onkeyup="validarEmail()" id="email" placeholder="name@example.com"
-              rows="1"></textarea>
+              rows="1" name="email"></textarea>
             <div id="txtEmail"></div>
           </div>
 
